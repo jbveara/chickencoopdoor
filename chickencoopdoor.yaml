@@ -1,0 +1,25 @@
+esphome:
+  name: chickencoopdoor
+  platform: ESP8266
+  board: nodemcuv2
+
+wifi:
+  ssid: "Go_Bears2008"
+  password: "dot0679four82tunic"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Chickencoopdoor Fallback Hotspot"
+    password: "h1Qumbjtr9Pq"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "griffin1"
+
+ota:
+  password: "griffin1"
